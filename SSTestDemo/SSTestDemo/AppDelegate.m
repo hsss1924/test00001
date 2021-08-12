@@ -7,6 +7,9 @@
 
 #import "AppDelegate.h"
 
+#import "person.h"
+#import "student.h"
+
 @interface AppDelegate ()
 @property(nonatomic,strong,readwrite)UIWindow *window;/**<  */
 @end
@@ -21,10 +24,13 @@
     UINavigationController *vc = [mainStory instantiateViewControllerWithIdentifier:@"nav"];
     self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
-    
+    [self test001];
     return YES;
 }
-
+-(void)test001{
+    student *ss = [[student alloc]init];
+    
+}
 
 
 

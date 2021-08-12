@@ -15,6 +15,8 @@
 		228C802425A7EB0F00189E71 /* SSTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 228C802325A7EB0F00189E71 /* SSTestDemoTests.m */; };
 		228C802F25A7EB0F00189E71 /* SSTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 228C802E25A7EB0F00189E71 /* SSTestDemoUITests.m */; };
 		228C804C25A8240000189E71 /* page.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 228C804B25A8240000189E71 /* page.storyboard */; };
+		AE76DBE025A89C5D007CD578 /* person.m in Sources */ = {isa = PBXBuildFile; fileRef = AE76DBDF25A89C5D007CD578 /* person.m */; };
+		AE76DBE625A89C6C007CD578 /* student.m in Sources */ = {isa = PBXBuildFile; fileRef = AE76DBE525A89C6C007CD578 /* student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		228C802E25A7EB0F00189E71 /* SSTestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSTestDemoUITests.m; sourceTree = "<group>"; };
 		228C803025A7EB0F00189E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		228C804B25A8240000189E71 /* page.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = page.storyboard; sourceTree = "<group>"; };
+		AE76DBDE25A89C5D007CD578 /* person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = person.h; sourceTree = "<group>"; };
+		AE76DBDF25A89C5D007CD578 /* person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = person.m; sourceTree = "<group>"; };
+		AE76DBE425A89C6C007CD578 /* student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = student.h; sourceTree = "<group>"; };
+		AE76DBE525A89C6C007CD578 /* student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		228C800625A7EB0C00189E71 /* SSTestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AE76DBDD25A89C43007CD578 /* test001 */,
 				228C804B25A8240000189E71 /* page.storyboard */,
 				228C800725A7EB0C00189E71 /* AppDelegate.h */,
 				228C800825A7EB0C00189E71 /* AppDelegate.m */,
@@ -130,6 +137,17 @@
 				228C803025A7EB0F00189E71 /* Info.plist */,
 			);
 			path = SSTestDemoUITests;
+			sourceTree = "<group>";
+		};
+		AE76DBDD25A89C43007CD578 /* test001 */ = {
+			isa = PBXGroup;
+			children = (
+				AE76DBDE25A89C5D007CD578 /* person.h */,
+				AE76DBDF25A89C5D007CD578 /* person.m */,
+				AE76DBE425A89C6C007CD578 /* student.h */,
+				AE76DBE525A89C6C007CD578 /* student.m */,
+			);
+			path = test001;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,8 +279,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE76DBE625A89C6C007CD578 /* student.m in Sources */,
 				228C800F25A7EB0C00189E71 /* ViewController.m in Sources */,
 				228C800925A7EB0C00189E71 /* AppDelegate.m in Sources */,
+				AE76DBE025A89C5D007CD578 /* person.m in Sources */,
 				228C801A25A7EB0E00189E71 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
